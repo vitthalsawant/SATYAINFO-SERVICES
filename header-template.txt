@@ -1,0 +1,84 @@
+    <!-- Header Start -->
+	<header class="main-header">
+        <div class="cta-box">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- Cta Box Item Start -->
+                        <div class="cta-box-item wow fadeInUp">
+                            <div class="icon-box">
+                                <img src="images/outgoing-call.png" alt="">
+                            </div>
+                            <div class="cta-box-content">
+                                <p>Email: samir.panda@satyainfoservices.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cta Box Item End -->
+    
+                    <!-- Cta Box Item Start -->
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="cta-box-item wow fadeInUp" data-wow-delay="0.25s">
+                            <div class="icon-box">
+                                <img src="images/address.png" alt="">
+                            </div>
+                            <div class="cta-box-content">
+                                <p>KESURA, Bhubaneswar, Odisha 751010, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cta Box Item End -->
+                    
+                </div>
+            </div>
+        </div>
+		<div class="header-sticky">
+			<nav class="navbar navbar-expand-lg">
+				<div class="container">
+					<!-- Logo Start -->
+					<a class="navbar-brand" href="./index.html">
+						<div class="logo">
+                            <img src="images/logo.png" alt="Logo">
+                        </div>
+					</a>
+					<!-- Logo End -->
+
+					<!-- Main Menu Start -->
+					<div class="collapse navbar-collapse main-menu">
+                        <div class="nav-menu-wrapper">
+                            <ul class="navbar-nav mr-auto" id="menu">
+                                 
+                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>                               
+                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                                <li class="nav-item submenu"><a class="nav-link" href="#">Products</a>
+                                   <ul>                                        
+                                        <li class="nav-item"><a class="nav-link" href="products-fixed-xray.html">Fixed X-Ray Systems</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="products-mobile-xray.html">Mobile X-Ray Systems</a></li>
+
+                                        <li class="nav-item"><a class="nav-link" href="products-digital-xray.html">Digital X-Ray Systems</a></li>
+
+                                        <li class="nav-item"><a class="nav-link" href="products-opg-cbct.html">OPG / CBCT Systems</a></li>
+
+                                        <li class="nav-item"><a class="nav-link" href="products-accessories.html">Accessories</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                                <li class="nav-item highlighted-menu"><a class="nav-link" href="contact.html">Enquiry</a></li>                               
+                            </ul>
+                        </div>
+                        <!-- Let's Start Button Start -->
+                        <div class="header-btn d-inline-flex">
+                            <a href="contact.html" class="btn-default">Enquiry</a>
+                        </div>
+                        <!-- Let's Start Button End -->
+					</div>
+					<!-- Main Menu End -->
+					<div class="navbar-toggle"></div>
+				</div>
+			</nav>
+			<div class="responsive-menu"></div>
+		</div>
+	</header>
+	<!-- Header End -->
