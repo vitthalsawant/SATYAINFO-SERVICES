@@ -4109,7 +4109,22 @@ footer.main-footer{
 	}
 
 	.cta-box{
-		padding: 25px 0;
+		/* Mobile/tablet: keep this bar compact */
+		padding: 10px 0;
+	}
+
+	.cta-box-item .icon-box{
+		margin-right: 12px;
+	}
+
+	.cta-box-item .icon-box img{
+		max-width: 28px;
+	}
+
+	.cta-box-content p{
+		font-size: 14px;
+		line-height: 1.35em;
+		word-break: break-word;
 	}
 
 	.cta-box-btn{
@@ -4928,15 +4943,33 @@ footer.main-footer{
 		bottom: 30px;
 	}
 
+	.cta-box{
+		/* Small mobile: even tighter so it doesn't dominate the screen */
+		padding: 8px 0;
+	}
+
 	.cta-box-item{
 		margin-right: 0px;
 		padding-right: 0px;
 		border: none;
-		margin-bottom: 20px;
+		margin-bottom: 8px;
 	}
 
 	.cta-box .col-lg-4:nth-child(2) .cta-box-item{
 		margin-bottom: 0;
+	}
+
+	.cta-box-item .icon-box{
+		margin-right: 10px;
+	}
+
+	.cta-box-item .icon-box img{
+		max-width: 24px;
+	}
+
+	.cta-box-content p{
+		font-size: 13px;
+		line-height: 1.35em;
 	}
 
 	.cta-box-content h3{

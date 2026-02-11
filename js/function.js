@@ -16,7 +16,16 @@
 		});
 
 		function setHeaderHeight(){
-	 		$("header.main-header").css("height", $('header .header-sticky').outerHeight());
+			/*
+			 Reserve enough space for the full header area.
+			 The header contains:
+			 - .cta-box (email/address bar) in normal flow
+			 - .header-sticky (navbar) which becomes position:fixed when active
+			 If we only reserve the navbar height, the CTA bar can overlap the page on mobile.
+			*/
+			var ctaHeight = $('header.main-header .cta-box').outerHeight() || 0;
+			var stickyHeight = $('header .header-sticky').outerHeight() || 0;
+			$("header.main-header").css("height", (ctaHeight + stickyHeight));
 		}	
 	
 		$(window).on("scroll", function() {
